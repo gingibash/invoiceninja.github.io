@@ -241,7 +241,7 @@ It's easier to tinker with HTML if you can get your hands on raw HTML. This can 
 1. Set `LOG_PDF_HTML=true` in your .env
 2. Run: `php artisan optimize`
 
-Now, any newly generated PDF will output the source code in the `storage/framework/laravel.log` file.
+Now, any newly generated PDF will output the source code in the `storage/logs/laravel.log` file.
 
 Source code is plain HTML, so you can just cut and paste it on your computer & run it locally in the browser.
 
